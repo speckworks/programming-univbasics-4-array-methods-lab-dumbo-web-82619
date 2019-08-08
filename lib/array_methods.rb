@@ -1,5 +1,6 @@
 def using_include(array, element)
-  array.include?(element)
+  using_include = array.include?(element)
+  return using_include
 end
 
 def using_sort(array)
