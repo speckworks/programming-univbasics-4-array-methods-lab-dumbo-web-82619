@@ -8,9 +8,10 @@ array = ["wow", "I", "am", "really", "learning", "arrays!"]
 end
 
 def using_reverse(array)
-  array = ["wow", "I", "am", "really", "learning", "arrays!"]
-  array.reverse
-  array.first
+   using_reverse = array.reverse
+   return using_reverse.first
+end
+puts using_reverse(array = ["wow", "I", "am", "really", "learning", "arrays!"])
 end
 
 def using_first(array)
