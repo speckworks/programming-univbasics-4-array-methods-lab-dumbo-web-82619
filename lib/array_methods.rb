@@ -3,6 +3,8 @@ def using_include(array, element)
   return using_include
 end
 
+using_include(array = ["wow", "I", "am", "really", "learning", "arrays!"], "yes")
+
 def using_sort(array)
   using_sort = array.sort
   return using_sort
